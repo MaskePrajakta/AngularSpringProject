@@ -1,0 +1,26 @@
+{
+  "User": [
+    {
+      "userid": 1,
+      "name": "Shriram",
+      "surname": "jadhao",
+      "city": "pune",
+      "pincode": "54333333",
+      "dob": "1996-04-11",
+      "joiningdate": "2021-03-22",
+      "username": "Shriram",
+      "password": "123456"
+    },
+    {
+      "userid": 2,
+      "name": "Shriramg",
+      "surname": "jadhav",
+      "city": "pune",
+      "pincode": "5433333",
+      "dob": "1996-04-14",
+      "joiningdate": "2021-03-22",
+      "username": "Shriramg",
+      "password": "123456"
+    }
+  ]
+}

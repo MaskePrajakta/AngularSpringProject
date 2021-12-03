@@ -1,0 +1,53 @@
+<p>register works!</p>
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" style="text-align: center;">
+    <!--registration form start -->
+    <h3 style="text-align: center; color: darkviolet;" >! Register Here !</h3>
+    <div  >
+        Name : <input  type="text" formControlName="name" placeholder="enter name"
+        >
+    </div>
+    <br>
+    <div>
+       Surname :<input  type="text" formControlName="surname"placeholder="enter surname"
+        >
+    </div>
+    <br>
+    <div>
+        City :<input  type="text" formControlName="city"placeholder="enter city"
+         >
+     </div>
+     <br>
+     <div>
+        Pincode :<input  type="text" formControlName="pincode"placeholder="enter pincode"
+         >
+     </div>
+     <br>
+     <div>
+        Dob :<input  type="text" formControlName="dob"placeholder="enter dob"
+         >
+     </div>
+     <br>
+     <div>
+        Joiningdate :<input  type="text" formControlName="joiningdate"placeholder="enter joiningdate"
+         >
+     </div>
+     <br>
+    
+    <div >
+        Username:  <input  type="text" formControlName="username" placeholder="enter username"
+        >
+    </div>
+    <br>
+    <div >
+      password :  <input  type="password" formControlName="password" placeholder="enter password"
+        >
+    </div>
+            <button class="btn btn-primary" type="submit" >Register</button>
+    
+            <div>
+            <a  class="btn btn-danger " style="text-align: right;" routerLink="/login" > back </a>
+            </div>
+            
+    </form>
+    
+    
